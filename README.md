@@ -1,1 +1,1 @@
-Left at delete action
+add sign in and sign up and sign out links

@@ -1,5 +1,30 @@
-@import "bootstrap";
-@import "normalize";
 /*
-
+ *= require_self
 */
+
+@import "bootstrap";
+@import "normalize.css.scss";
+
+
+.main {
+    margin-left: 5px;
+}
+
+.navbar  {
+    background-color: black !important;
+
+}
+
+.logo {
+    color: red !important;
+    font-weight: bold;
+}
+
+.form {
+    margin-left: 50px;
+    margin-right: 500px;
+}
+
+.left {
+    float: left;
+}
