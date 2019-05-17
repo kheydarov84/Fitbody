@@ -5,15 +5,15 @@
 @import "bootstrap";
 @import "normalize.css.scss";
 
-
-.main {
-    margin-left: 5px;
+body {
+    margin-top: 0px;
 }
+
 
 .navbar  {
     background-color: black !important;
-
 }
+
 
 .logo {
     color: red !important;
@@ -27,4 +27,28 @@
 
 .left {
     float: left;
+}
+
+
+.jumbotron {
+    background-image: asset-url('gym2.jpg');
+    background-size: cover;
+    height: 800px;
+    color: white;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card:hover {
+  height: 210px;
+  box-shadow: 20px 20px 40px 0px rgba(0,0,0,0.5);
+  transform: scale(1.1);  
+}
+
+.top-margin {
+    margin-top: 20px;
 }
