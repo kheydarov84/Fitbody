@@ -38,9 +38,13 @@ body {
 }
 
 .container {
-    margin-top: 20px;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.card {
+    margin: 10px;
 }
 
 .card:hover {
@@ -51,4 +55,44 @@ body {
 
 .top-margin {
     margin-top: 20px;
+}
+
+/*flash*/
+.alert-error {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    text-align: left;
+ }
+
+.alert-alert {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    text-align: left;
+ }
+
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+    text-align: left;
+ }
+
+.alert-notice {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+    text-align: left;
+ }
+ 
+.alert {
+    margin-bottom: 0;
+    ul {
+        list-style-type: none;
+    }
+}
+
+.form-inline {
+    padding-left: 10px;
 }
